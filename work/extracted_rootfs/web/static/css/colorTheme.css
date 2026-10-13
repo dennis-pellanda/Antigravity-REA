@@ -1,0 +1,1232 @@
+/* default */
+#app .vue-slider-component.vue-slider-horizontal .vue-slider-process{background-color: #ffc800;}
+#app .vue-slider-component .vue-slider-tooltip{background-color:#ffc800;border-color:#ffc800; }
+
+
+/* Red */
+#app.red .custom-file:after{background-color: #FF7E87;}
+#app.red .vue-slider-component.vue-slider-horizontal .vue-slider-process{background-color: #FF7E87;}
+#app.red .vue-slider-component .vue-slider-tooltip{background-color:#FF7E87;border-color:#FF7E87; }
+#app.red .normalbtn.active .bg-block{background: #FF7E87;}
+#app.red .sidenav .s-meun .sub li:hover .bg-block{background: #FF7E87;}
+#app.red table thead{border-color:#FF7E87;}
+#app.red *[data-outline="zyOutline"]{border:1px solid #FF7E87;}
+#app.red .custom-file-input:focus~.custom-file-control{border-color: #FF7E87;box-shadow:0 0 0 0.075rem #fff, 0 0 0 0.2rem #FF7E87;}
+#app.red .countdownbtn{
+  background-color: #FF7E87;
+}
+#app.red .main-panel .card .staticlist li .iconbox .icon.middleicon{
+  border-color: #FF7E87;
+}
+#app.red .main-panel .card .staticlist li .iconbox .icon.middleicon .inside{
+  border-color: #FF7E87;
+}
+
+#app.red .main-panel .card .staticlist li .iconbox .icon.lasticon{
+  border-color: #FF7E87;
+}
+
+#app.red .main-panel .card .staticlist li .iconbox .icon.lasticon .inside{
+  border-color: #FF7E87;
+}
+#app.red .main-panel .card .staticlist li.disconnect .iconbox .connectlink .connectline.right{
+	border-top-color: #FF7E87;
+}
+
+#app.red .normalbtn.active.sp{
+  background-color: #FF7E87;
+}
+#app.red .form-control:focus {
+  border-color: #FF7E87;
+  box-shadow: 0 0 0 0.2rem rgba(255,126,135, .25);
+}
+
+#app.red .checkbox-info input[type="checkbox"]:checked+label::before {
+  background-color: #FF7E87;
+  border-color: #FF7E87;
+}
+
+#app.red .progress-bar {
+  background-color: #FF7E87;
+}
+
+#app.red .tablebtn:hover .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .tablebtn.active:hover .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .tablebtn.show .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .tablebtn.disabled:hover .bg-block,
+#app.red .tablebtn.backbtn:hover .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .normaltab.active .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .normaltab.active:hover .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .normaltab.disabled:hover .bg-block,
+#app.red .normaltab.backbtn:hover .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .normalbtn .bg-block {
+  //background: #FF7E87;
+}
+
+#app.red .normalbtn.active:hover .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .normalbtn.normal:hover .bg-block,
+#app.red .normalbtn.disabled:hover .bg-block,
+#app.red .normalbtn.backbtn:hover .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .fillbtn {
+  background-color: #FF7E87;
+}
+
+#app.red .processbox ul li.active .textbox .numbox {
+  border-color: #FF7E87;
+}
+
+#app.red .processbox ul li.active .textbox .numbox span {
+  border-color: #FF7E87;
+  background: #FF7E87;
+}
+
+#app.red .processbox ul li.active .symbox span {
+  color: #FF7E87;
+}
+
+#app.red .processbox.small ul li.active .textbox .numbox span {
+  border-color: #FF7E87;
+}
+
+#app.red .formbox input {
+  border-color: #FF7E87;
+}
+
+#app.red .formbox select {
+  border-color: #FF7E87;
+}
+
+#app.red .connection-line-animation.connected .line {
+  background: #FF7E87;
+}
+
+#app.red .connection-line-animation.connected i {
+  color: #FF7E87;
+}
+
+#app.red .sidenav .menubtn .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .sidenav .menubtn.active .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .sidenav .menubtn.active:hover .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .sidenav .iconbox {
+  border: 1px solid #FF7E87;
+}
+
+#app.red .sidenav li:hover .iconbox .icon-border,
+#app.red .sidenav li.active .iconbox .icon-border {
+  background: #FF7E87;
+}
+
+#app.red .main-panel .card .staticlist li.connect .iconbox .icon {
+  border-color: #FF7E87;
+}
+
+#app.red .main-panel .card .staticlist li.connect .iconbox .icon .inside {
+  border-color: #FF7E87;
+}
+
+#app.red .main-panel .card .staticlist li.connect .iconbox .connectlink .connectline {
+  border-top-color: #FF7E87;
+}
+
+#app.red .main-panel .card .staticlist li.connect .iconbox .connectlink i {
+  color: #FF7E87;
+}
+
+#app.red .main-panel .border-icon .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .main-panel .parentalbox.active {
+  border-color: #FF7E87;
+}
+
+#app.red .main-panel .parentalbox.active .icon {
+  border-color: #FF7E87;
+}
+
+#app.red #Card-broadband .main-panel .card:hover {
+  border-color: #FF7E87;
+}
+
+#app.red .tabbox .normalbtn.active .bg-block {
+  background-color: #FF7E87;
+}
+
+#app.red .main-searchbox span.zoom:after {
+  background-color: #FF7E87;
+}
+
+#app.red .symbolbtn .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .symbolbtn.active:hover .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .symbolbtn.disabled:hover .bg-block,
+#app.red .symbolbtn.backbtn:hover .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .connectivitybox .toolbox .devicebox li:hover .outborder .iconbox {
+  border-color: #FF7E87;
+}
+
+#app.red .connectivitybox .toolbox .devicebox li.active .outborder .iconbox {
+  border-color: #FF7E87;
+}
+#app.red .connectivitybox .toolbox .devicebox li.active .outborder .iconbox .icon-border{
+  background: #FF7E87;
+  border-color: #FF7E87;
+}
+#app.red .connectivitybox .toolbox .devicebox li.active:hover .outborder .iconbox {
+  border-color: #FF7E87;
+}
+
+#app.red .connectivitybox .toolbox .devicebox li.active:hover .outborder .iconbox .icon-border {
+  border-color: #FF7E87;
+  background: #FF7E87;
+}
+#app.red .connectivitybox .toolbox .devicebox li:hover .outborder .iconbox .icon-border{
+  border-color: #FF7E87;
+  background: #FF7E87;
+	
+}
+#app.red .connectivitybox li.active .outborder {
+  border-color: #FF7E87;
+}
+
+#app.red .connectivitybox li:hover .outborder {
+  border-color: #FF7E87;
+}
+
+/* #app.red .connectivitybox li.active .outborder .iconbox {
+  border-color: #FF7E87;
+}
+
+#app.red .connectivitybox li.active .outborder .iconbox .icon-border {
+  border-color: #FF7E87;
+  background: #FF7E87; 
+} */
+
+#app.red .connectivitybox li.active.editing .outborder .iconbox { 
+  border-color: #FF7E87;
+}
+#app.red .connectivitybox li.active.editing .outborder .iconbox .icon-border { 
+  border-color: #FF7E87;
+  background: #FF7E87; 
+}
+
+#app.red .connectivitybox li .outborder .border-icon .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .connectivitybox .helplistbox .helplist .customor .contactbox .contactinfo {
+  background-color: #FF7E87;
+}
+
+#app.red .parentalcontrolbox .profilelistbox .profilelist .profileitem.block .iconbox .icon-border {
+  border-color: #FF7E87;
+}
+
+#app.red .parentalcontrolbox .profilelistbox .profilelist .profileitem.block .iconbox .icon-border:after {
+  background-color: #FF7E87;
+}
+
+#app.red .parentalcontrolbox .blocklistbox .devicelist li .outborder .nametag span {
+  background-color: #FF7E87;
+}
+
+#app.red .parentalcontrolbox .blocklistbox .devicelist li.active .outborder .iconbox {
+  border-color: #FF7E87;
+}
+
+#app.red .scheduledbox .devicelistbox li.active .outborder .iconbox {
+  border-color: #FF7E87;
+}
+
+#app.red .scheduledbox .devicelistbox li.active .outborder .iconbox .icon-border {
+  border-color: #FF7E87;
+  background: #FF7E87;
+}
+
+#app.red .scheduledbox .devicelistbox li .outborder .border-icon .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .scheduledbox .schedulelistbox li .outborder .iconbox {
+  border: 1px solid #FF7E87;
+}
+
+#app.red .scheduledbox .schedulelistbox li.active .outborder .iconbox {
+  border-color: #FF7E87;
+}
+
+#app.red .scheduledbox .schedulelistbox li.active .outborder .iconbox .icon-border {
+  border-color: #FF7E87;
+  background: #FF7E87;
+}
+
+#app.red .scheduledbox .schedulelistbox li .outborder .border-icon .bg-block {
+  background: #FF7E87;
+}
+
+#app.red .scheduledbox .normalbtn.active .bg-block {
+  background-color: #FF7E87;
+}
+
+#app.red .addwaninterface .btngroup .btnbox .normalbtn.active .bg-block {
+  background-color: #FF7E87;
+}
+
+#app.red .content-wrapper .interfacegroup .changebox .middlebox .border-icon .bg-block {
+  background: #FF7E87;
+}
+
+#app.red table thead {
+  border-color: #FF7E87;
+}
+
+
+/* Blue */
+#app.blue .custom-file:after{background-color: #33c1ff;}
+#app.blue .vue-slider-component.vue-slider-horizontal .vue-slider-process{background-color: #33c1ff;}
+#app.blue .vue-slider-component .vue-slider-tooltip{background-color:#33c1ff;border-color:#33c1ff; }
+#app.blue .normalbtn.active .bg-block{background: #33c1ff;}
+#app.blue .sidenav .s-meun .sub li:hover .bg-block{background: #33c1ff;}
+#app.blue table thead{border-color:#33c1ff;}
+#app.blue *[data-outline="zyOutline"]{border:1px solid #33c1ff;}
+#app.blue .custom-file-input:focus~.custom-file-control{border-color: #33c1ff;box-shadow:0 0 0 0.075rem #fff, 0 0 0 0.2rem #33c1ff;}
+#app.blue .countdownbtn{
+  background-color: #33c1ff;
+}
+#app.blue .main-panel .card .staticlist li .iconbox .icon.middleicon{
+  border-color: #33c1ff;
+}
+#app.blue .main-panel .card .staticlist li .iconbox .icon.middleicon .inside{
+  border-color: #33c1ff;
+}
+
+#app.blue .main-panel .card .staticlist li .iconbox .icon.lasticon{
+  border-color: #33c1ff;
+}
+
+#app.blue .main-panel .card .staticlist li .iconbox .icon.lasticon .inside{
+  border-color: #33c1ff;
+}
+#app.blue .main-panel .card .staticlist li.disconnect .iconbox .connectlink .connectline.right{
+	border-top-color: #33c1ff;
+}
+#app.blue .normalbtn.active.sp{
+  background-color: #33c1ff;
+}
+#app.blue .form-control:focus {
+  border-color: #33c1ff;
+  box-shadow: 0 0 0 0.2rem rgba(51,193,255, .25);
+}
+
+#app.blue .checkbox-info input[type="checkbox"]:checked+label::before {
+  background-color: #33c1ff;
+  border-color: #33c1ff;
+}
+
+#app.blue .progress-bar {
+  background-color: #33c1ff;
+}
+
+#app.blue .tablebtn:hover .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .tablebtn.active:hover .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .tablebtn.show .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .tablebtn.disabled:hover .bg-block,
+#app.blue .tablebtn.backbtn:hover .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .normaltab.active .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .normaltab.active:hover .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .normaltab.disabled:hover .bg-block,
+#app.blue .normaltab.backbtn:hover .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .normalbtn .bg-block {
+  //background: #33c1ff;
+}
+
+#app.blue .normalbtn.active:hover .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .normalbtn.normal:hover .bg-block,
+#app.blue .normalbtn.disabled:hover .bg-block,
+#app.blue .normalbtn.backbtn:hover .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .fillbtn {
+  background-color: #33c1ff;
+}
+
+#app.blue .processbox ul li.active .textbox .numbox {
+  border-color: #33c1ff;
+}
+
+#app.blue .processbox ul li.active .textbox .numbox span {
+  border-color: #33c1ff;
+  background: #33c1ff;
+}
+
+#app.blue .processbox ul li.active .symbox span {
+  color: #33c1ff;
+}
+
+#app.blue .processbox.small ul li.active .textbox .numbox span {
+  border-color: #33c1ff;
+}
+
+#app.blue .formbox input {
+  border-color: #33c1ff;
+}
+
+#app.blue .formbox select {
+  border-color: #33c1ff;
+}
+
+#app.blue .connection-line-animation.connected .line {
+  background: #33c1ff;
+}
+
+#app.blue .connection-line-animation.connected i {
+  color: #33c1ff;
+}
+
+#app.blue .sidenav .menubtn .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .sidenav .menubtn.active .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .sidenav .menubtn.active:hover .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .sidenav .iconbox {
+  border: 1px solid #33c1ff;
+}
+
+#app.blue .sidenav li:hover .iconbox .icon-border,
+#app.blue .sidenav li.active .iconbox .icon-border {
+  background: #33c1ff;
+}
+
+#app.blue .main-panel .card .staticlist li.connect .iconbox .icon {
+  border-color: #33c1ff;
+}
+
+#app.blue .main-panel .card .staticlist li.connect .iconbox .icon .inside {
+  border-color: #33c1ff;
+}
+
+#app.blue .main-panel .card .staticlist li.connect .iconbox .connectlink .connectline {
+  border-top-color: #33c1ff;
+}
+
+#app.blue .main-panel .card .staticlist li.connect .iconbox .connectlink i {
+  color: #33c1ff;
+}
+
+#app.blue .main-panel .border-icon .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .main-panel .parentalbox.active {
+  border-color: #33c1ff;
+}
+
+#app.blue .main-panel .parentalbox.active .icon {
+  border-color: #33c1ff;
+}
+
+#app.blue #Card-broadband .main-panel .card:hover {
+  border-color: #33c1ff;
+}
+
+#app.blue .tabbox .normalbtn.active .bg-block {
+  background-color: #33c1ff;
+}
+
+#app.blue .main-searchbox span.zoom:after {
+  background-color: #33c1ff;
+}
+
+#app.blue .symbolbtn .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .symbolbtn.active:hover .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .symbolbtn.disabled:hover .bg-block,
+#app.blue .symbolbtn.backbtn:hover .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .connectivitybox .toolbox .devicebox li:hover .outborder .iconbox {
+  border-color: #33c1ff;
+}
+
+#app.blue .connectivitybox .toolbox .devicebox li.active .outborder .iconbox {
+  border-color: #33c1ff;
+}
+
+#app.blue .connectivitybox .toolbox .devicebox li.active:hover .outborder .iconbox {
+  border-color: #33c1ff;
+}
+#app.blue .connectivitybox .toolbox .devicebox li.active .outborder .iconbox .icon-border{
+  background: #33c1ff;
+  border-color: #33c1ff;
+}
+#app.blue .connectivitybox .toolbox .devicebox li.active:hover .outborder .iconbox .icon-border {
+  border-color: #33c1ff;
+  background: #33c1ff;
+}
+
+#app.blue .connectivitybox .toolbox .devicebox li:hover .outborder .iconbox .icon-border{
+  border-color: #33c1ff;
+  background: #33c1ff;	
+}
+#app.blue .connectivitybox li.active .outborder {
+  border-color: #33c1ff;
+}
+
+#app.blue .connectivitybox li:hover .outborder {
+  border-color: #33c1ff;
+}
+
+/* #app.blue .connectivitybox li.active .outborder .iconbox {
+  border-color: #33c1ff;
+}
+
+#app.blue .connectivitybox li.active .outborder .iconbox .icon-border {
+  border-color: #33c1ff;
+  background: #33c1ff; 
+} */
+#app.blue .connectivitybox li.active.editing .outborder .iconbox {
+  border-color: #33c1ff;
+}
+#app.blue .connectivitybox li.active.editing .outborder .iconbox .icon-border { 
+  background: #33c1ff; 
+  border-color: #33c1ff;
+}
+#app.blue .connectivitybox li .outborder .border-icon .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .connectivitybox .helplistbox .helplist .customor .contactbox .contactinfo {
+  background-color: #33c1ff;
+}
+
+#app.blue .parentalcontrolbox .profilelistbox .profilelist .profileitem.block .iconbox .icon-border {
+  border-color: #33c1ff;
+}
+
+#app.blue .parentalcontrolbox .profilelistbox .profilelist .profileitem.block .iconbox .icon-border:after {
+  background-color: #33c1ff;
+}
+
+#app.blue .parentalcontrolbox .blocklistbox .devicelist li .outborder .nametag span {
+  background-color: #33c1ff;
+}
+
+#app.blue .parentalcontrolbox .blocklistbox .devicelist li.active .outborder .iconbox {
+  border-color: #33c1ff;
+}
+
+
+#app.blue .scheduledbox .devicelistbox li.active .outborder .iconbox {
+  border-color: #33c1ff;
+}
+
+#app.blue .scheduledbox .devicelistbox li.active .outborder .iconbox .icon-border {
+  border-color: #33c1ff;
+  background: #33c1ff;
+}
+
+#app.blue .scheduledbox .devicelistbox li .outborder .border-icon .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .scheduledbox .schedulelistbox li .outborder .iconbox {
+  border: 1px solid #33c1ff;
+}
+
+#app.blue .scheduledbox .schedulelistbox li.active .outborder .iconbox {
+  border-color: #33c1ff;
+}
+
+#app.blue .scheduledbox .schedulelistbox li.active .outborder .iconbox .icon-border {
+  border-color: #33c1ff;
+  background: #33c1ff;
+}
+
+#app.blue .scheduledbox .schedulelistbox li .outborder .border-icon .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue .scheduledbox .normalbtn.active .bg-block {
+  background-color: #33c1ff;
+}
+
+#app.blue .addwaninterface .btngroup .btnbox .normalbtn.active .bg-block {
+  background-color: #33c1ff;
+}
+
+#app.blue .content-wrapper .interfacegroup .changebox .middlebox .border-icon .bg-block {
+  background: #33c1ff;
+}
+
+#app.blue table thead {
+  border-color: #33c1ff;
+}
+
+/* Green */
+#app.green .custom-file:after{background-color: #83CB33;}
+#app.green .vue-slider-component.vue-slider-horizontal .vue-slider-process{background-color: #83CB33;}
+#app.green .vue-slider-component .vue-slider-tooltip{background-color:#83CB33;border-color:#83CB33; }
+#app.green .normalbtn.active .bg-block{background: #83CB33;}
+#app.green .sidenav .s-meun .sub li:hover .bg-block{background: #83CB33;}
+#app.green table thead{border-color:#83CB33;}
+#app.green *[data-outline="zyOutline"]{border:1px solid #83CB33;}
+#app.green .custom-file-input:focus~.custom-file-control{border-color: #83CB33;box-shadow:0 0 0 0.075rem #fff, 0 0 0 0.2rem #83CB33;}
+#app.green .countdownbtn{
+  background-color: #83CB33;
+}
+
+#app.green .main-panel .card .staticlist li .iconbox .icon.middleicon{
+  border-color:  #83CB33;
+}
+#app.green .main-panel .card .staticlist li .iconbox .icon.middleicon .inside{
+  border-color:  #83CB33;
+}
+
+#app.green .main-panel .card .staticlist li .iconbox .icon.lasticon{
+  border-color:  #83CB33;
+}
+
+#app.green .main-panel .card .staticlist li .iconbox .icon.lasticon .inside{
+  border-color: #83CB33;
+}
+#app.green .main-panel .card .staticlist li.disconnect .iconbox .connectlink .connectline.right{
+	border-top-color:  #83CB33;
+}
+#app.green .normalbtn.active.sp{
+  background: #83CB33;
+}
+
+#app.green .form-control:focus {
+  border-color: #83CB33;
+  box-shadow: 0 0 0 0.2rem rgba(131,203,51, .25);
+}
+
+#app.green .checkbox-info input[type="checkbox"]:checked+label::before {
+  background-color: #83CB33;
+  border-color: #83CB33;
+}
+#app.green .progress-bar {
+  background-color: #83CB33;
+}
+#app.green .tablebtn:hover .bg-block {
+  background: #83CB33;
+}
+#app.green .tablebtn.active:hover .bg-block {
+  background: #83CB33;
+}
+#app.green .tablebtn.show .bg-block {
+  background: #83CB33;
+}
+#app.green .tablebtn.disabled:hover .bg-block,
+#app.green .tablebtn.backbtn:hover .bg-block {
+  background: #83CB33;
+}
+#app.green .normaltab.active .bg-block {
+  background: #83CB33;
+}
+#app.green .normaltab.active:hover .bg-block {
+  background: #83CB33;
+}
+#app.green .normaltab.disabled:hover .bg-block,
+#app.green .normaltab.backbtn:hover .bg-block {
+  background: #83CB33;
+}
+#app.green .normalbtn .bg-block {
+	//background: #83CB33;
+}
+#app.green .normalbtn.active:hover .bg-block {
+  background: #83CB33;
+}
+	#app.green .normalbtn.normal:hover .bg-block,
+	#app.green .normalbtn.disabled:hover .bg-block,
+	#app.green .normalbtn.backbtn:hover .bg-block {
+	  background: #83CB33;
+	}
+#app.green .fillbtn {
+  background-color: #83CB33;
+}
+#app.green .processbox ul li.active .textbox .numbox {
+  border-color: #83CB33;
+}
+#app.green .processbox ul li.active .textbox .numbox span {
+  border-color: #83CB33;
+  background: #83CB33;
+}
+#app.green .processbox ul li.active .symbox span {
+  color: #83CB33;
+}
+#app.green .processbox.small ul li.active .textbox .numbox span {
+  border-color: #83CB33;
+}
+#app.green .formbox input {
+ border-color: #83CB33;
+}
+
+#app.green .formbox select {
+ border-color: #83CB33;
+}
+#app.green .connection-line-animation.connected .line {
+  background: #83CB33;
+}
+
+#app.green .connection-line-animation.connected i {
+  color: #83CB33;
+}
+#app.green .sidenav .menubtn .bg-block {
+  background: #83CB33;
+}
+#app.green .sidenav .menubtn.active .bg-block {
+  background: #83CB33;
+}
+
+#app.green .sidenav .menubtn.active:hover .bg-block {
+  background: #83CB33;
+}
+#app.green .sidenav .iconbox {
+  border: 1px solid #83CB33;
+}
+#app.green .sidenav li:hover .iconbox .icon-border,
+#app.green .sidenav li.active .iconbox .icon-border {
+  background: #83CB33;
+}
+#app.green .main-panel .card .staticlist li.connect .iconbox .icon {
+  border-color: #83CB33;
+}
+#app.green .main-panel .card .staticlist li.connect .iconbox .icon .inside {
+  border-color: #83CB33;
+}
+#app.green .main-panel .card .staticlist li.connect .iconbox .connectlink .connectline {
+  border-top-color: #83CB33;
+}
+#app.green .main-panel .card .staticlist li.connect .iconbox .connectlink i {
+  color: #83CB33;
+}
+#app.green .main-panel .border-icon .bg-block {
+  background: #83CB33;
+}
+#app.green .main-panel .parentalbox.active {
+  border-color: #83CB33;
+}
+#app.green .main-panel .parentalbox.active .icon {
+  border-color: #83CB33;
+}
+#app.green #Card-broadband .main-panel .card:hover {
+  border-color: #83CB33;
+}
+#app.green .tabbox .normalbtn.active .bg-block {
+  background-color: #83CB33;
+}
+#app.green .main-searchbox span.zoom:after {
+  background-color: #83CB33;
+}
+#app.green .symbolbtn .bg-block {
+  background: #83CB33;
+}
+#app.green .symbolbtn.active:hover .bg-block {
+  background: #83CB33;
+}
+#app.green .symbolbtn.disabled:hover .bg-block,
+#app.green .symbolbtn.backbtn:hover .bg-block {
+  background: #83CB33;
+}
+#app.green .connectivitybox .toolbox .devicebox li:hover .outborder .iconbox {
+  border-color: #83CB33;
+}
+#app.green .connectivitybox .toolbox .devicebox li.active .outborder .iconbox {
+  border-color: #83CB33;
+}
+#app.green .connectivitybox .toolbox .devicebox li.active .outborder .iconbox .icon-border{
+  background: #83CB33;
+  border-color: #83CB33;
+}
+#app.green .connectivitybox .toolbox .devicebox li.active:hover .outborder .iconbox {
+  border-color: #83CB33;
+}
+#app.green .connectivitybox .toolbox .devicebox li.active:hover .outborder .iconbox .icon-border {
+  border-color: #83CB33;
+  background: #83CB33;
+}
+
+#app.green .connectivitybox .toolbox .devicebox li:hover .outborder .iconbox .icon-border{
+  border-color: #83CB33;
+  background: #83CB33;
+}
+
+#app.green .connectivitybox li.active .outborder {
+  border-color: #83CB33;
+}
+#app.green .connectivitybox li:hover .outborder {
+  border-color: #83CB33;
+}
+/* #app.green .connectivitybox li.active .outborder .iconbox {
+  border-color: #83CB33;
+} */
+/* #app.green .connectivitybox li.active .outborder .iconbox .icon-border {
+  border-color: #83CB33;
+  background: #83CB33; 
+} */
+#app.green .connectivitybox li.active.editing .outborder .iconbox { 
+  border-color: #83CB33;
+}
+#app.green .connectivitybox li.active.editing .outborder .iconbox .icon-border { 
+  border-color: #83CB33;
+  background: #83CB33; 
+}
+#app.green .connectivitybox li .outborder .border-icon .bg-block {
+  background: #83CB33;
+}
+#app.green .connectivitybox .helplistbox .helplist .customor .contactbox .contactinfo {
+  background-color: #83CB33;
+}
+#app.green .parentalcontrolbox .profilelistbox .profilelist .profileitem.block .iconbox .icon-border {
+  border-color: #83CB33;
+}
+#app.green .parentalcontrolbox .profilelistbox .profilelist .profileitem.block .iconbox .icon-border:after {
+  background-color: #83CB33;
+}
+#app.green .parentalcontrolbox .blocklistbox .devicelist li .outborder .nametag span {
+  background-color: #83CB33;
+}
+#app.green .parentalcontrolbox .blocklistbox .devicelist li.active .outborder .iconbox {
+  border-color: #83CB33;
+}
+
+#app.green .scheduledbox .devicelistbox li.active .outborder .iconbox {
+  border-color: #83CB33;
+}
+#app.green .scheduledbox .devicelistbox li.active .outborder .iconbox .icon-border {
+  border-color: #83CB33;
+  background: #83CB33;
+}
+#app.green .scheduledbox .devicelistbox li .outborder .border-icon .bg-block {
+  background: #83CB33;
+}
+#app.green .scheduledbox .schedulelistbox li .outborder .iconbox {
+  border: 1px solid #83CB33;
+}
+#app.green .scheduledbox .schedulelistbox li.active .outborder .iconbox {
+  border-color: #83CB33;
+}
+#app.green .scheduledbox .schedulelistbox li.active .outborder .iconbox .icon-border {
+  border-color: #83CB33;
+  background: #83CB33;
+}
+#app.green .scheduledbox .schedulelistbox li .outborder .border-icon .bg-block {
+  background: #83CB33;
+}
+#app.green .scheduledbox .normalbtn.active .bg-block {
+  background-color: #83CB33;
+}
+#app.green .addwaninterface .btngroup .btnbox .normalbtn.active .bg-block {
+  background-color: #83CB33;
+}
+#app.green .content-wrapper .interfacegroup .changebox .middlebox .border-icon .bg-block {
+  background: #83CB33;
+}
+#app.green table thead {
+  border-color: #83CB33;
+}
+
+
+/* orange */
+#app.orange .custom-file:after{background-color: #FFA133;}
+#app.orange .vue-slider-component.vue-slider-horizontal .vue-slider-process{background-color: #FFA133;}
+#app.orange .vue-slider-component .vue-slider-tooltip{background-color:#FFA133;border-color:#FFA133; }
+#app.orange .normalbtn.active .bg-block{background: #FFA133;}
+#app.orange .sidenav .s-meun .sub li:hover .bg-block{background: #FFA133;}
+#app.orange table thead{border-color:#FFA133;}
+#app.orange *[data-outline="zyOutline"]{border:1px solid #FFA133;}
+#app.orange .custom-file-input:focus~.custom-file-control{border-color: #FFA133;box-shadow:0 0 0 0.075rem #fff, 0 0 0 0.2rem #FFA133;}
+#app.orange .countdownbtn{
+  background-color: #FFA133;
+}
+
+#app.orange .main-panel .card .staticlist li .iconbox .icon.middleicon{
+  border-color:#FFA133;
+}
+#app.orange .main-panel .card .staticlist li .iconbox .icon.middleicon .inside{
+  border-color:#FFA133;
+}
+
+#app.orange .main-panel .card .staticlist li .iconbox .icon.lasticon{
+  border-color:#FFA133;
+}
+
+#app.orange .main-panel .card .staticlist li .iconbox .icon.lasticon .inside{
+  border-color: #FFA133;
+}
+#app.orange .main-panel .card .staticlist li.disconnect .iconbox .connectlink .connectline.right{
+	border-top-color:  #FFA133;
+}
+#app.orange .normalbtn.active.sp{
+  background-color: #FFA133;
+}
+#app.orange .form-control:focus {
+  border-color: #FFA133;
+  box-shadow: 0 0 0 0.2rem rgba(255,161,51, .25);
+}
+
+#app.orange .checkbox-info input[type="checkbox"]:checked+label::before {
+  background-color: #FFA133;
+  border-color: #FFA133;
+}
+
+#app.orange .progress-bar {
+  background-color: #FFA133;
+}
+
+#app.orange .tablebtn:hover .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .tablebtn.active:hover .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .tablebtn.show .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .tablebtn.disabled:hover .bg-block,
+#app.orange .tablebtn.backbtn:hover .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .normaltab.active .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .normaltab.active:hover .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .normaltab.disabled:hover .bg-block,
+#app.orange .normaltab.backbtn:hover .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .normalbtn .bg-block {
+  //background: #FFA133;
+}
+
+#app.orange .normalbtn.active:hover .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .normalbtn.normal:hover .bg-block,
+#app.orange .normalbtn.disabled:hover .bg-block,
+#app.orange .normalbtn.backbtn:hover .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .fillbtn {
+  background-color: #FFA133;
+}
+
+#app.orange .processbox ul li.active .textbox .numbox {
+  border-color: #FFA133;
+}
+
+#app.orange .processbox ul li.active .textbox .numbox span {
+  border-color: #FFA133;
+  background: #FFA133;
+}
+
+#app.orange .processbox ul li.active .symbox span {
+  color: #FFA133;
+}
+
+#app.orange .processbox.small ul li.active .textbox .numbox span {
+  border-color: #FFA133;
+}
+
+#app.orange .formbox input {
+  border-color: #FFA133;
+}
+
+#app.orange .formbox select {
+  border-color: #FFA133;
+}
+
+#app.orange .connection-line-animation.connected .line {
+  background: #FFA133;
+}
+
+#app.orange .connection-line-animation.connected i {
+  color: #FFA133;
+}
+
+#app.orange .sidenav .menubtn .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .sidenav .menubtn.active .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .sidenav .menubtn.active:hover .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .sidenav .iconbox {
+  border: 1px solid #FFA133;
+}
+
+#app.orange .sidenav li:hover .iconbox .icon-border,
+#app.orange .sidenav li.active .iconbox .icon-border {
+  background: #FFA133;
+}
+
+#app.orange .main-panel .card .staticlist li.connect .iconbox .icon {
+  border-color: #FFA133;
+}
+
+#app.orange .main-panel .card .staticlist li.connect .iconbox .icon .inside {
+  border-color: #FFA133;
+}
+
+#app.orange .main-panel .card .staticlist li.connect .iconbox .connectlink .connectline {
+  border-top-color: #FFA133;
+}
+
+#app.orange .main-panel .card .staticlist li.connect .iconbox .connectlink i {
+  color: #FFA133;
+}
+
+#app.orange .main-panel .border-icon .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .main-panel .parentalbox.active {
+  border-color: #FFA133;
+}
+
+#app.orange .main-panel .parentalbox.active .icon {
+  border-color: #FFA133;
+}
+
+#app.orange #Card-broadband .main-panel .card:hover {
+  border-color: #FFA133;
+}
+
+#app.orange .tabbox .normalbtn.active .bg-block {
+  background-color: #FFA133;
+}
+
+#app.orange .main-searchbox span.zoom:after {
+  background-color: #FFA133;
+}
+
+#app.orange .symbolbtn .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .symbolbtn.active:hover .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .symbolbtn.disabled:hover .bg-block,
+#app.orange .symbolbtn.backbtn:hover .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .connectivitybox .toolbox .devicebox li:hover .outborder .iconbox {
+  border-color: #FFA133;
+}
+
+#app.orange .connectivitybox .toolbox .devicebox li.active .outborder .iconbox {
+  border-color: #FFA133;
+}
+#app.orange .connectivitybox .toolbox .devicebox li.active .outborder .iconbox .icon-border{
+  background: #FFA133;
+  border-color: #FFA133;
+}
+#app.orange .connectivitybox .toolbox .devicebox li.active:hover .outborder .iconbox {
+  border-color: #FFA133;
+}
+
+#app.orange .connectivitybox .toolbox .devicebox li.active:hover .outborder .iconbox .icon-border {
+  border-color: #FFA133;
+  background: #FFA133;
+}
+
+#app.orange .connectivitybox .toolbox .devicebox li:hover .outborder .iconbox .icon-border{
+  border-color: #FFA133;
+  background: #FFA133;
+}
+
+#app.orange .connectivitybox li.active .outborder {
+  border-color: #FFA133;
+}
+
+#app.orange .connectivitybox li:hover .outborder {
+  border-color: #FFA133;
+}
+
+/* #app.orange .connectivitybox li.active .outborder .iconbox {
+  border-color: #FFA133;
+}
+
+#app.orange .connectivitybox li.active .outborder .iconbox .icon-border {
+  border-color: #FFA133;
+  background: #FFA133; 
+} */
+#app.orange .connectivitybox li.active.editing .outborder .iconbox { 
+  border-color: #FFA133;
+}
+#app.orange .connectivitybox li.active.editing .outborder .iconbox .icon-border { 
+  border-color: #FFA133;
+  background: #FFA133; 
+}
+
+#app.orange .connectivitybox li .outborder .border-icon .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .connectivitybox .helplistbox .helplist .customor .contactbox .contactinfo {
+  background-color: #FFA133;
+}
+
+#app.orange .parentalcontrolbox .profilelistbox .profilelist .profileitem.block .iconbox .icon-border {
+  border-color: #FFA133;
+}
+
+#app.orange .parentalcontrolbox .profilelistbox .profilelist .profileitem.block .iconbox .icon-border:after {
+  background-color: #FFA133;
+}
+
+#app.orange .parentalcontrolbox .blocklistbox .devicelist li .outborder .nametag span {
+  background-color: #FFA133;
+}
+
+#app.orange .parentalcontrolbox .blocklistbox .devicelist li.active .outborder .iconbox {
+  border-color: #FFA133;
+}
+
+#app.orange .scheduledbox .devicelistbox li.active .outborder .iconbox {
+  border-color: #FFA133;
+}
+
+#app.orange .scheduledbox .devicelistbox li.active .outborder .iconbox .icon-border {
+  border-color: #FFA133;
+  background: #FFA133;
+}
+
+#app.orange .scheduledbox .devicelistbox li .outborder .border-icon .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .scheduledbox .schedulelistbox li .outborder .iconbox {
+  border: 1px solid #FFA133;
+}
+
+#app.orange .scheduledbox .schedulelistbox li.active .outborder .iconbox {
+  border-color: #FFA133;
+}
+
+#app.orange .scheduledbox .schedulelistbox li.active .outborder .iconbox .icon-border {
+  border-color: #FFA133;
+  background: #FFA133;
+}
+
+#app.orange .scheduledbox .schedulelistbox li .outborder .border-icon .bg-block {
+  background: #FFA133;
+}
+
+#app.orange .scheduledbox .normalbtn.active .bg-block {
+  background-color: #FFA133;
+}
+
+#app.orange .addwaninterface .btngroup .btnbox .normalbtn.active .bg-block {
+  background-color: #FFA133;
+}
+
+#app.orange .content-wrapper .interfacegroup .changebox .middlebox .border-icon .bg-block {
+  background: #FFA133;
+}
+
+#app.orange table thead {
+  border-color: #FFA133;
+}

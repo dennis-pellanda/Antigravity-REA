@@ -1,0 +1,655 @@
+[
+  {
+    "id": "connect",
+    "menutitle": "connection_status",
+    "title": "Connection Status",
+	"title_m": "ConnectionStatus.title",
+    "icon": "connection-icon",
+    "Rmenu": true
+  },
+  {
+    "id": "network",
+    "menutitle": "network_setting",
+    "title": "Network",
+	"title_m": "Network.title",
+    "icon": "network-icon",
+    "submenu": [{
+        "title": "Broadband",
+		"title_m": "Network.sublist.Broadband",
+		"id": "Broadband",
+        "link": "Broadband",
+        "url": [
+          "/pages/network/broadBand/broadBand.js",
+          "/pages/network/broadBand/bbBroadBand.js",
+          "/pages/network/broadBand/bbAdvance.js",
+          "/pages/network/broadBand/ethlanwan.js",
+          "/pages/network/broadBand/wwan_backup.js",
+          "/pages/network/broadBand/8021x.js",
+          "/pages/network/broadBand/vpnLite.js"
+        ],
+        "name": "BROADBAND",
+        "tabRender": "broadbandTabRender",
+        "pageRender": "broadbandPageHandle"
+      },
+      {
+        "title": "Wireless",
+		"title_m": "Network.sublist.Wireless",
+		"id": "Wireless",
+        "link": "Wireless",
+        "url": [
+          "./pages/network/wireless/wireless.js",
+          "./pages/network/wireless/wifiGeneral.js",
+          "./pages/network/wireless/moreApEditContent.js",
+          "./pages/network/wireless/moreApEdit.js",
+          "./pages/network/wireless/moreAp.js",
+          "./pages/network/wireless/wps.js",
+          "./pages/network/wireless/wmm.js",
+          "./pages/network/wireless/wds.js",
+          "./pages/network/wireless/otherContent.js",
+          "./pages/network/wireless/other.js",
+          "./pages/network/wireless/chScan.js",
+          "./pages/network/wireless/macflt.js",
+          "./pages/network/wireless/wlansche.js",
+          "./pages/network/wireless/mesh.js"
+        ],
+        "name": "WIRELESS",
+        "tabRender": "wirelessTabRender",
+        "pageRender": "wirelessPageHandle"
+      },
+      {
+        "title": "Home Networking",
+		"title_m": "Network.sublist.HomeNetworking",
+		"id": "Home_Networking",
+        "link": "HomeNetworking",
+        "EXT_PRI": ["Upnp_Portmap"],
+        "url": [
+          "/pages/network/homeNetworking/homeNetworking.js",
+          "/pages/network/homeNetworking/lanSetup.js",
+          "/pages/network/homeNetworking/staticDHCP.js",
+          "/pages/network/homeNetworking/customDHCP.js",
+          "/pages/network/homeNetworking/upnp.js",
+          "/pages/network/homeNetworking/mediaServer.js",
+          "/pages/network/homeNetworking/printServer.js",
+          "/pages/network/homeNetworking/ipalias.js",
+          "/pages/network/homeNetworking/upnpList.js",
+          "/pages/network/homeNetworking/STBVendorID.js",
+          "/pages/network/homeNetworking/VendorSpecific.js",
+          "/pages/network/homeNetworking/wakeOnLan.js",
+          "/pages/network/homeNetworking/TFTPServerName.js",
+          "/pages/connectionstatus/networkMap.js"
+        ],
+        "name": "HOMENETWORKING",
+        "tabRender": "homeNetworkPageHandle",
+        "pageRender": ""
+      },
+      {
+        "title": "Routing",
+		"title_m": "Network.sublist.Routing",
+		"id": "Routing",
+        "link": "Routing",
+        "url": [
+          "/pages/network/routing/routing.js",
+          "/pages/network/routing/staticRoute.js",
+          "/pages/network/routing/dnsRoute.js",
+          "/pages/network/routing/policyRoute.js",
+          "/pages/network/routing/rip.js"
+        ],
+        "name": "ROUTING",
+        "tabRender": "routingTabRender",
+        "pageRender": "routingPageHandle"
+      },
+      {
+        "title": "QoS",
+		"title_m": "Network.sublist.QoS",
+		"id": "QoS",
+        "link": "QoS",
+        "url": [
+          "/pages/network/qos/qos.js",
+          "/pages/network/qos/qosGeneral.js",
+          "/pages/network/qos/qosQueue.js",
+          "/pages/network/qos/qosClass.js",
+          "/pages/network/qos/qosShaper.js",
+          "/pages/network/qos/qosPolicer.js",
+          "/pages/network/qos/qosMonitor.js"
+        ],
+        "name": "QOS",
+        "tabRender": "qosTabRender",
+        "pageRender": "qosPageHandle"
+      },
+      {
+        "title": "NAT",
+		"title_m": "Network.sublist.NAT",
+		"id": "NAT",
+        "link": "NAT",
+        "url": [
+          "./pages/network/nat/nat.js",
+          "./pages/network/nat/portFwd.js",
+          "./pages/network/nat/portFwdAddContent.js",
+          "./pages/network/nat/portFwdAdd.js",
+          "./pages/network/nat/applications.js",
+          "./pages/network/nat/applicationsAdd.js",
+          "./pages/network/nat/applicationsAddContent.js",
+          "./pages/network/nat/portTrig.js",
+          "./pages/network/nat/portTrigAdd.js",
+          "./pages/network/nat/portTrigAddContent.js",
+          "./pages/network/nat/dmz.js",
+          "./pages/network/nat/alg.js",
+          "./pages/network/nat/addrMap.js",
+          "./pages/network/nat/addrMapAdd.js",
+          "./pages/network/nat/addrMapAddContent.js",
+          "./pages/network/nat/session.js"
+        ],
+        "name": "NAT",
+        "tabRender": "natTabRender",
+        "pageRender": "natPageHandle"
+      },
+      {
+        "title": "DNS",
+		"title_m": "Network.sublist.DNS",
+		"id": "DNS",
+        "link": "DNS",
+        "url": [
+          "/pages/network/dns/dns.js",
+          "/pages/network/dns/ddns.js",
+          "/pages/network/dns/dnsentry.js"
+        ],
+        "name": "DNS",
+        "tabRender": "dnsTabRender",
+        "pageRender": "dnsPageHandle"
+      },
+      {
+        "title": "IGMP/MLD",
+		"title_m": "Network.sublist.IGMP",
+		"id": "IGMP_MLD",
+        "link": "IGMPMLD",
+        "url": ["/pages/network/igmp_mld/igmpmld.js"],
+        "name": "IGMP/MLD",
+        "tabRender": "IGMPMLDGeneralPageHandle",
+        "pageRender": ""
+      },
+      {
+        "title": "Vlan Group",
+		"title_m": "Network.sublist.VlanGroup",
+		"id": "Vlan_Group",
+        "link": "VlanGroup",
+        "url": [
+          "/pages/network/vlanGroup/vlanGroupInit.js",
+          "/pages/network/vlanGroup/vlanGroup.js"
+        ],
+        "name": "VLANGROUP",
+        "tabRender": "vlanGroupInitTabRender",
+        "pageRender": "vlanGroupInitPageHandle"
+      },
+      {
+        "title": "Interface Grouping",
+		"title_m": "Network.sublist.InterfaceGrouping",
+		"id": "Interface_Grouping",
+        "link": "InterfaceGrouping",
+        "url": [
+          "/pages/network/interfaceGrouping/intfGrp-criteria.js",
+          "/pages/network/interfaceGrouping/intfGrp.js"
+        ],
+        "name": "INTERFACEGROUPING",
+        "tabRender": "intfGrpGeneralPageHandle",
+        "pageRender": ""
+      },
+      {
+        "title": "USB Service",
+		"title_m": "Network.sublist.USBService",
+		"id": "USB_Service",
+        "link": "USBService",
+        "EXT_PRI": ["ParseDirectory", "ParseUSBInfo"],
+        "url": [
+          "/pages/network/usbService/usbService.js",
+          "/pages/network/usbService/fileSharing.js",
+          "/pages/network/usbService/mediaServer.js",
+          "/pages/network/usbService/usbSupport.js",
+          "/pages/network/usbService/printServer.js",
+          "/pages/maintenance/userAccount.js"
+        ],
+        "name": "USBSERVICE",
+        "tabRender": "usbServicePageHandle",
+        "pageRender": ""
+      },
+      {
+        "title": "Tunnel Setting",
+		"title_m": "Network.sublist.TunnelSetting",
+		"id": "Tunnel_Setting",
+        "link": "TunnelSetting",
+        "url": [
+          "/pages/network/tunnelSetting/tunnelSetting.js",
+          "/pages/network/tunnelSetting/tunnelSetting-criteria.js"
+        ],
+        "name": "TUNNELSETTING",
+        "tabRender": "tunnelSettingPageHandle",
+        "pageRender": ""
+      },
+      {
+        "title": "Home Connectivity",
+		"title_m": "Network.sublist.HomeConnectivity",
+		"id": "Home_Connectivity",
+        "link": "HomeConnectivity",
+        "url": [
+          "/pages/network/homeConnectivity/homeConnectivity.js",
+          "/pages/network/homeConnectivity/oneConnect.js"
+        ],
+        "name": "HOMECONNECTIVITY",
+        "tabRender": "homeConnectivityTabRender",
+        "pageRender": "homeConnectivityPageHandle"
+      }
+    ]
+  },
+  {
+    "id": "security",
+    "menutitle": "security",
+    "title": "Security",
+	"title_m": "Security.title",
+    "icon": "security-icon",
+    "submenu": [{
+        "title": "Firewall",
+		"title_m": "Security.sublist.Firewall",
+		"id": "Firewall",
+        "link": "Firewall",
+        "url": [
+          "/pages/security/firewall.js",
+          "/pages/security/firewall_general.js",
+          "/pages/security/firewall_protocol.js",
+          "/pages/security/firewall_acl.js",
+          "/pages/security/firewall_dos.js",
+          "/pages/security/schedulerRule.js"
+        ],
+        "name": "FIREWALL",
+        "tabRender": "firewallTabRender",
+        "pageRender": "firewallPageHandle"
+      },
+      {
+        "title": "MAC Filter",
+		"title_m": "Security.sublist.MACFilter",
+		"id": "MAC_Filter",
+        "link": "MACFilter",
+        "url": ["/pages/security/macFilter/macFilter.js"],
+        "name": "MACFILTER",
+        "tabRender": "macFilterGeneralPageHandle",
+        "pageRender": ""
+      },
+      {
+        "title": "Parental Control",
+		"title_m": "Security.sublist.ParentalControl",
+		"id": "Parental_Control",
+        "link": "ParentalControl",
+        "url": [
+          "/pages/security/parentalControl.js",
+          "/pages/security/firewall.js",
+          "/pages/connectionstatus/networkMap.js",
+          "/pages/security/schedulerRule.js"
+        ],
+        "name": "PARENTALCONTROL",
+        "tabRender": "parCtlTabRender",
+        "pageRender": "parCtlPageHandle"
+      },
+      {
+        "title": "Scheduler Rule",
+		"title_m": "Security.sublist.SchedulerRule",
+		"id": "Scheduler_Rule",
+        "link": "SchedulerRule",
+        "url": [
+          "/pages/security/schedulerRule.js",
+          "/pages/security/firewall.js"
+        ],
+        "name": "SCHEDULERRULE",
+        "tabRender": "scheduleTabRender",
+        "pageRender": "schedulePageHandle"
+      },
+      {
+        "title": "Certificates",
+		"title_m": "Security.sublist.Certificates",
+		"id": "Certificates",
+        "link": "Certificates",
+        "url": [
+          "/pages/security/certificates/certificates.js",
+          "/pages/security/certificates/localCertificates.js",
+          "/pages/security/certificates/trustedCA.js"
+        ],
+        "name": "CERTIFICATES",
+        "tabRender": "certificicatesGeneralPageHandle",
+        "pageRender": ""
+      },
+      {
+        "title": "PPTP VPN",
+		"title_m": "Security.sublist.PPTPVPN",
+		"id": "PPTP_VPN",
+        "link": "PPTPVPN",
+        "url": [
+          "/pages/security/pptpVpn/pptppage.js"
+        ],
+        "name": "PPTPVPN",
+        "tabRender": "certificicatesGeneralPageHandle",
+        "pageRender": ""
+      },
+      {
+        "title": "EoGRE Tunnel",
+		"title_m": "Security.sublist.EoGRE",
+		"id": "EoGRE",
+        "link": "EoGRE",
+        "url": [
+        ],
+        "name": "EoGRE",
+        "tabRender": "certificicatesGeneralPageHandle",
+        "pageRender": ""
+      }
+    ]
+  },
+
+  {
+    "id": "voip",
+    "menutitle": "voip",
+    "title": "VoIP",
+	"title_m": "VoIP.title",
+    "icon": "mvoip-icon",
+    "submenu": [{
+        "title": "SIP",
+		"title_m": "VoIP.sublist.SIP",
+		"id": "SIP",
+        "link": "SIP",
+        "url": [
+          "/pages/voip/sip.js",
+          "/pages/voip/provider.js",
+          "/pages/voip/account.js",
+          "/pages/network/nat/nat.js"
+        ],
+        "name": "SIP",
+        "tabRender": "sipTabRender",
+        "pageRender": "sipPageHandle"
+      },
+      {
+        "title": "Phone",
+		"title_m": "VoIP.sublist.Phone",
+		"id": "Phone",
+        "link": "Phone",
+        "EXT_PRI": ["Diagnostic", "Diagnostic_Result"],
+        "url": [
+          "/pages/voip/phone.js",
+          "/pages/voip/phone_device.js",
+          "/pages/voip/region.js",
+          "/pages/voip/dectGeneral.js",
+          "/pages/maintenance/diagnostic/pingTest.js"
+        ],
+        "name": "PHONE",
+        "tabRender": "phoneTabRender",
+        "pageRender": "phonePageHandle"
+      },
+      {
+        "title": "Call Rule",
+		"title_m": "VoIP.sublist.CallRule",
+		"id": "Call_Rule",
+        "link": "CallRule",
+        "EXT_PRI": ["CallHistory", "Phonebook"],
+        "url": [
+          "/pages/voip/call_rule.js",
+          "/pages/voip/speed_dial.js",
+          "/pages/voip/call_policy.js",
+          "/pages/voip/phonebook.js",
+          "/pages/voip/call_history.js"
+        ],
+        "name": "CALLRULE",
+        "tabRender": "callruleTabRender",
+        "pageRender": "callrulePageHandle"
+      },
+      {
+        "title": "Call History",
+		"title_m": "VoIP.sublist.CallHistory",
+		"id": "CallHistory_id",
+        "link": "CallHistory",
+        "EXT_PRI": ["CallHistory"],
+        "url": [
+          "/pages/voip/call_history_main.js",
+          "/pages/voip/call_history.js",
+          "/pages/voip/call_history_summary.js"
+        ],
+        "name": "CALLHISTORY",
+        "tabRender": "callhistorymainTabRender",
+        "pageRender": "callhistorymainPageHandle"
+      }
+    ]
+  },
+  {
+    "id": "system",
+    "menutitle": "system_monitor",
+    "title": "System",
+	"title_m": "System.title",
+    "icon": "system-icon",
+    "submenu": [{
+        "title": "Log",
+		"title_m": "System.sublist.Log",
+		"id": "Log",
+        "link": "Log",
+        "url": ["/pages/system_monitor/log.js"],
+        "name": "LOG",
+        "tabRender": "logTabRender",
+        "pageRender": "logPageHandle"
+      },
+      {
+        "title": "Traffic Status",
+		"title_m": "System.sublist.TrafficStatus",
+		"id": "Traffic_Status",
+        "link": "TrafficStatus",
+        "EXT_PRI": ["NATSession_handle"],
+        "url": ["/pages/system_monitor/traffic_status.js"],
+        "name": "TRAFFICSTATUS",
+        "tabRender": "ipIfaceStatusTabRender",
+        "pageRender": "ipIfaceStatusPageHandle"
+      },
+      {
+        "title": "VoIP Status",
+		"title_m": "System.sublist.VoIPStatus",
+		"id": "VoIP_Status",
+        "link": "VoIPStatus",
+        "url": ["/pages/system_monitor/voip_status.js"],
+        "name": "VOIPSTATUS",
+        "tabRender": "VoiceStatusTabRender",
+        "pageRender": "VoiceStatusPageHandle"
+      },
+      {
+        "title": "ARP Table",
+		"title_m": "System.sublist.ARPTable",
+		"id": "ARP_Table",
+        "link": "ARPTable",
+        "EXT_PRI": ["ARPTable_handle"],
+        "url": ["/pages/system_monitor/arp_table.js"],
+        "name": "ARPTABLE",
+        "tabRender": "",
+        "pageRender": "ARPTablePageHandle"
+      },
+      {
+        "title": "Routing Table",
+		"title_m": "System.sublist.RoutingTable",
+		"id": "Routing_Table",
+        "link": "RoutingTable",
+        "EXT_PRI": ["RoutingTable_handle"],
+        "url": ["/pages/system_monitor/routing_table.js"],
+        "name": "ROUTINGTABLE",
+        "tabRender": "",
+        "pageRender": "RoutingTablePageHandle"
+      },
+      {
+        "title": "Multicast Status",
+		"title_m": "System.sublist.MulticastStatus",
+		"id": "McastSt",
+        "link": "MulticastStatus",
+        "url": ["pages/system_monitor/multicastSt.js"],
+        "name": "MULTICASTSTATUS",
+        "tabRender": "mcastStTabRender",
+        "pageRender": "mcastStPageHandle"
+      },
+      {
+        "title": "xDSL Statistics",
+		"title_m": "System.sublist.xDSLStatistics",
+		"id": "xDSL_Statistics",
+        "link": "XDSLStatistics",
+        "EXT_PRI": ["xDSLStatistics_handle"],
+        "url": ["/pages/system_monitor/xdsl_statistics.js"],
+        "name": "XDSLSTATISTICS",
+        "tabRender": "xdslTabRender",
+        "pageRender": "xdslPageHandle"
+      },
+      {
+        "title": "WLAN Station Status",
+		"title_m": "System.sublist.WLANStationStatus",
+		"id": "WLAN_Table",
+        "link": "WLANStationStatus",
+        "EXT_PRI": ["WLANTable_handle"],
+        "url": ["/pages/system_monitor/wlan_table.js"],
+        "name": "WLANTABLE",
+        "tabRender": "",
+        "pageRender": "WLANTablePageHandle"
+      },
+	  {
+        "title": "Steering Status",
+        "title_m": "System.sublist.SteeringStatus",
+        "id": "Steering_Status",
+        "link": "SteeringStatus",
+        "EXT_PRI": [],
+        "url": [],
+        "name": "SteeringStatus",
+        "tabRender": "",
+        "pageRender": ""
+      },
+      {
+        "title": "Cellular Statistics",
+		"title_m": "System.sublist.CellularStatistics",
+		"id": "WWAN_Statistics",
+        "link": "CellularStatistics",
+        "url": ["pages/system_monitor/wwan_statistics.js"],
+        "name": "WWANSTATISTICS",
+        "tabRender": "wwanStTabRender",
+        "pageRender": "wwanStPageHandle"
+      },
+	  {
+        "title": "GPON Status",
+		"title_m": "System.sublist.GPONStatus",
+        "id": "GPON_Status",
+		"link": "GPONStatus",
+		"EXT_PRI": [],
+        "url": [""],
+        "name": "GPONStatus",
+        "tabRender": "",
+        "pageRender": ""
+      },
+	  {
+        "title": "Cellular WAN Status",
+		"title_m": "System.sublist.CellWanStatus",
+        "id": "CellWan_Status",
+		"link": "CellWanStatus",
+		"EXT_PRI": [],
+        "url": [""],
+        "name": "CellWanStatus",
+        "tabRender": "",
+        "pageRender": ""
+      }
+    ]
+  },
+  {
+    "id": "maintenance",
+    "menutitle": "maintenance",
+    "title": "Maintenance",
+	"title_m": "Maintenance.title",
+    "icon": "maintenance-icon",
+    "submenu": [{
+        "title": "System",
+		"title_m": "Maintenance.sublist.System",
+		"id": "System",
+        "link": "System"
+      },
+      {
+        "title": "User Account",
+		"title_m": "Maintenance.sublist.UserAccount",
+		"id": "User_Account",
+        "link": "UserAccount"
+      },
+      {
+        "title": "Remote Management",
+		"title_m": "Maintenance.sublist.RemoteMGMT",
+		"id": "Remote_MGMT",
+        "link": "RemoteManagement"
+      },
+      {
+        "title": "SP Domain",
+		"title_m": "Maintenance.sublist.SPDomain",
+		"id": "SP_Domain",
+        "link": "SPDomain"
+      },
+      {
+        "title": "TR069 Client",
+		"title_m": "Maintenance.sublist.TR069Client",
+		"id": "TR-069_Client",
+        "link": "TR069Client"
+      },
+      {
+        "title": "Lwm2m Client",
+		"title_m": "Maintenance.sublist.Lwm2mClient",
+		"id": "Lwm2m_Client",
+        "link": "Lwm2mClient"
+      },	  
+      {
+        "title": "TR369 Local Agent",
+        "title_m": "Maintenance.sublist.TR369LocalAgent",
+        "id": "TR369_LocalAgent",
+        "link": "TR369LocalAgent"
+      },
+      {
+        "title": "SNMP",
+		"title_m": "Maintenance.sublist.SNMP",
+		"id": "SNMP",
+        "link": "SNMP"
+      },
+      {
+        "title": "Time",
+		"title_m": "Maintenance.sublist.Time",
+		"id": "Time",
+        "link": "Time"
+      },
+      {
+        "title": "Email Notification",
+		"title_m": "Maintenance.sublist.EmailNotification",
+		"id": "Email_Notify",
+        "link": "EmailNotification"
+      },
+      {
+        "title": "Log Setting",
+		"title_m": "Maintenance.sublist.LogSetting",
+		"id": "Log_Setting",
+        "link": "LogSetting"
+      },
+      {
+        "title": "Firmware Upgrade",
+		"title_m": "Maintenance.sublist.FirmwareUpgrade",
+		"id": "Firmware_Upgrade",
+        "link": "FirmwareUpgrade"
+      },
+      {
+        "title": "Backup&Restore",
+		"title_m": "Maintenance.sublist.BackupRestore",
+		"id": "Backup_Restore",
+        "link": "Backup"
+      },
+      {
+        "title": "Reboot",
+		"title_m": "Maintenance.sublist.Reboot",
+		"id": "Reboot",
+        "link": "Reboot"
+      },
+      {
+        "title": "Diagnostic",
+		"title_m": "Maintenance.sublist.Diagnostic",
+		"id": "Diagnostic_id",
+        "link": "Diagnostic"
+      },
+      {
+        "title": "Proximity Sensor",
+		"title_m": "Maintenance.sublist.ProximitySensor",
+		"id": "Proximity_Sensor",
+        "link": "ProximitySensor"
+      }
+    ]
+  }
+]
